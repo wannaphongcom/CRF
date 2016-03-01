@@ -1,4 +1,7 @@
-# CRF++ in Visual Studio
+# CRF++ 
+##Why Visual Studio
+The [CRF++](https://taku910.github.io/crfpp/) project is very famous in the research and industry domains. But it's hard to get the CRF++-0.58(The latest version) source code and build it in Windows. So today I build it with Visual Studio in Windows and hope it can help you.
+
 ##Introduction
 [CRF++](https://taku910.github.io/crfpp/) is a simple, customizable, and open source implementation of Conditional Random Fields (CRFs) for segmenting/labeling sequential data. CRF++ is designed for generic purpose and will be applied to a variety of NLP tasks, such as Named Entity Recognition, Information Extraction and Text Chunking.
 
@@ -13,8 +16,6 @@
 *	Can output marginal probabilities for all candidates
 *	Available as an open source software
 
-##Why Visual Studio
-The [CRF++](https://taku910.github.io/crfpp/) project is very famous in the research and industry domains. But it's hard to get the CRF++-0.58(The latest version) source code and build it in Windows. So today I build it with Visual Studio in Windows and hope it can help someone.
 
 ##Train(encoding)
 **Use crf_learn command:**
