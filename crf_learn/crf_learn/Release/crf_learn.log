@@ -1,0 +1,238 @@
+﻿  crf_learn.cpp
+  encoder.cpp
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\scoped_ptr.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\scoped_ptr.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\tagger.h(158): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+encoder.cpp(157): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+encoder.cpp(209): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+encoder.cpp(396): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+encoder.cpp(402): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+encoder.cpp(408): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+encoder.cpp(515): warning C4273: 'crfpp_learn2': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(94): note: see previous definition of 'crfpp_learn2'
+encoder.cpp(521): warning C4273: 'crfpp_learn': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(93): note: see previous definition of 'crfpp_learn'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\xutility(2637): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\xutility(2651): note: see reference to function template instantiation 'void std::_Fill_unchecked1<_FwdIt,_Ty>(_FwdIt,_FwdIt,const _Ty &,std::false_type)' being compiled
+          with
+          [
+              _FwdIt=float *,
+              _Ty=double
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\xutility(2659): note: see reference to function template instantiation 'void std::_Fill_unchecked<float*,_Ty>(_FwdIt,_FwdIt,const _Ty &)' being compiled
+          with
+          [
+              _Ty=double,
+              _FwdIt=float *
+          ]
+  encoder.cpp(107): note: see reference to function template instantiation 'void std::fill<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,double>(_FwdIt,_FwdIt,const double &)' being compiled
+          with
+          [
+              _Ty=float,
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>
+          ]
+  feature.cpp
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\scoped_ptr.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\scoped_ptr.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\tagger.h(158): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+feature.cpp(139): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+  feature_cache.cpp
+  feature_index.cpp
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\scoped_ptr.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\scoped_ptr.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+feature_index.cpp(47): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\darts.h(189): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\darts.h(129): note: while compiling class template member function 'size_t CRFPP::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,CRFPP::Darts::Length<char>>::insert(const std::vector<CRFPP::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,CRFPP::Darts::Length<char>>::node_t,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=CRFPP::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,CRFPP::Darts::Length<char>>::node_t
+          ]
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\darts.h(292): note: see reference to function template instantiation 'size_t CRFPP::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,CRFPP::Darts::Length<char>>::insert(const std::vector<CRFPP::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,CRFPP::Darts::Length<char>>::node_t,std::allocator<_Ty>> &)' being compiled
+          with
+          [
+              _Ty=CRFPP::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,CRFPP::Darts::Length<char>>::node_t
+          ]
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\feature_index.h(125): note: see reference to class template instantiation 'CRFPP::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int,CRFPP::Darts::Length<char>>' being compiled
+  lbfgs.cpp
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+  libcrfpp.cpp
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\scoped_ptr.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\scoped_ptr.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+libcrfpp.cpp(61): warning C4273: 'crfpp_model_new': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(45): note: see previous definition of 'crfpp_model_new'
+libcrfpp.cpp(69): warning C4273: 'crfpp_model_new2': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(46): note: see previous definition of 'crfpp_model_new2'
+libcrfpp.cpp(79): warning C4273: 'crfpp_model_from_array_new': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(47): note: see previous definition of 'crfpp_model_from_array_new'
+libcrfpp.cpp(90): warning C4273: 'crfpp_model_from_array_new2': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(48): note: see previous definition of 'crfpp_model_from_array_new2'
+libcrfpp.cpp(99): warning C4273: 'crfpp_model_get_template': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(49): note: see previous definition of 'crfpp_model_get_template'
+libcrfpp.cpp(104): warning C4273: 'crfpp_model_destroy': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(50): note: see previous definition of 'crfpp_model_destroy'
+libcrfpp.cpp(109): warning C4273: 'crfpp_model_strerror': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(51): note: see previous definition of 'crfpp_model_strerror'
+libcrfpp.cpp(116): warning C4273: 'crfpp_model_new_tagger': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(52): note: see previous definition of 'crfpp_model_new_tagger'
+libcrfpp.cpp(121): warning C4273: 'crfpp_new': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(54): note: see previous definition of 'crfpp_new'
+libcrfpp.cpp(137): warning C4273: 'crfpp_strerror': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(95): note: see previous definition of 'crfpp_strerror'
+libcrfpp.cpp(144): warning C4273: 'crfpp_destroy': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(56): note: see previous definition of 'crfpp_destroy'
+libcrfpp.cpp(149): warning C4273: 'crfpp_set_model': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(57): note: see previous definition of 'crfpp_set_model'
+libcrfpp.cpp(154): warning C4273: 'crfpp_add2': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(58): note: see previous definition of 'crfpp_add2'
+libcrfpp.cpp(158): warning C4273: 'crfpp_add': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(59): note: see previous definition of 'crfpp_add'
+libcrfpp.cpp(162): warning C4273: 'crfpp_size': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(60): note: see previous definition of 'crfpp_size'
+libcrfpp.cpp(166): warning C4273: 'crfpp_xsize': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(61): note: see previous definition of 'crfpp_xsize'
+libcrfpp.cpp(170): warning C4273: 'crfpp_result': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(64): note: see previous definition of 'crfpp_result'
+libcrfpp.cpp(174): warning C4273: 'crfpp_answer': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(65): note: see previous definition of 'crfpp_answer'
+libcrfpp.cpp(178): warning C4273: 'crfpp_y': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(66): note: see previous definition of 'crfpp_y'
+libcrfpp.cpp(182): warning C4273: 'crfpp_ysize': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(67): note: see previous definition of 'crfpp_ysize'
+libcrfpp.cpp(186): warning C4273: 'crfpp_prob': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(68): note: see previous definition of 'crfpp_prob'
+libcrfpp.cpp(190): warning C4273: 'crfpp_prob2': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(69): note: see previous definition of 'crfpp_prob2'
+libcrfpp.cpp(194): warning C4273: 'crfpp_prob3': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(70): note: see previous definition of 'crfpp_prob3'
+libcrfpp.cpp(198): warning C4273: 'crfpp_set_penalty': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(71): note: see previous definition of 'crfpp_set_penalty'
+libcrfpp.cpp(202): warning C4273: 'crfpp_penalty': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(72): note: see previous definition of 'crfpp_penalty'
+libcrfpp.cpp(206): warning C4273: 'crfpp_alpha': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(73): note: see previous definition of 'crfpp_alpha'
+libcrfpp.cpp(210): warning C4273: 'crfpp_beta': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(74): note: see previous definition of 'crfpp_beta'
+libcrfpp.cpp(214): warning C4273: 'crfpp_best_cost': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(80): note: see previous definition of 'crfpp_best_cost'
+libcrfpp.cpp(218): warning C4273: 'crfpp_emisstion_cost': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(75): note: see previous definition of 'crfpp_emisstion_cost'
+libcrfpp.cpp(226): warning C4273: 'crfpp_next_transition_cost': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(76): note: see previous definition of 'crfpp_next_transition_cost'
+libcrfpp.cpp(230): warning C4273: 'crfpp_prev_transition_cost': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(78): note: see previous definition of 'crfpp_prev_transition_cost'
+libcrfpp.cpp(235): warning C4273: 'crfpp_next_transition_vector': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(82): note: see previous definition of 'crfpp_next_transition_vector'
+libcrfpp.cpp(240): warning C4273: 'crfpp_prev_transition_vector': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(84): note: see previous definition of 'crfpp_prev_transition_vector'
+libcrfpp.cpp(244): warning C4273: 'crfpp_dsize': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(62): note: see previous definition of 'crfpp_dsize'
+libcrfpp.cpp(248): warning C4273: 'crfpp_weight_vector': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(63): note: see previous definition of 'crfpp_weight_vector'
+libcrfpp.cpp(252): warning C4273: 'crfpp_Z': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(86): note: see previous definition of 'crfpp_Z'
+libcrfpp.cpp(256): warning C4273: 'crfpp_parse': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(87): note: see previous definition of 'crfpp_parse'
+libcrfpp.cpp(260): warning C4273: 'crfpp_empty': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(88): note: see previous definition of 'crfpp_empty'
+libcrfpp.cpp(264): warning C4273: 'crfpp_clear': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(89): note: see previous definition of 'crfpp_clear'
+libcrfpp.cpp(268): warning C4273: 'crfpp_next': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(90): note: see previous definition of 'crfpp_next'
+libcrfpp.cpp(272): warning C4273: 'crfpp_yname': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(96): note: see previous definition of 'crfpp_yname'
+libcrfpp.cpp(276): warning C4273: 'crfpp_y2': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(97): note: see previous definition of 'crfpp_y2'
+libcrfpp.cpp(280): warning C4273: 'crfpp_x': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(98): note: see previous definition of 'crfpp_x'
+libcrfpp.cpp(284): warning C4273: 'crfpp_x2': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(99): note: see previous definition of 'crfpp_x2'
+libcrfpp.cpp(288): warning C4273: 'crfpp_parse_tostr': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(100): note: see previous definition of 'crfpp_parse_tostr'
+libcrfpp.cpp(292): warning C4273: 'crfpp_parse_tostr2': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(101): note: see previous definition of 'crfpp_parse_tostr2'
+libcrfpp.cpp(297): warning C4273: 'crfpp_parse_tostr3': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(103): note: see previous definition of 'crfpp_parse_tostr3'
+libcrfpp.cpp(301): warning C4273: 'crfpp_tostr': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(105): note: see previous definition of 'crfpp_tostr'
+libcrfpp.cpp(305): warning C4273: 'crfpp_tostr2': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(106): note: see previous definition of 'crfpp_tostr2'
+libcrfpp.cpp(309): warning C4273: 'crfpp_set_vlevel': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(108): note: see previous definition of 'crfpp_set_vlevel'
+libcrfpp.cpp(313): warning C4273: 'crfpp_vlevel': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(109): note: see previous definition of 'crfpp_vlevel'
+libcrfpp.cpp(317): warning C4273: 'crfpp_set_cost_factor': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(110): note: see previous definition of 'crfpp_set_cost_factor'
+libcrfpp.cpp(321): warning C4273: 'crfpp_cost_factor': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(111): note: see previous definition of 'crfpp_cost_factor'
+libcrfpp.cpp(325): warning C4273: 'crfpp_set_nbest': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(112): note: see previous definition of 'crfpp_set_nbest'
+  node.cpp
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+  param.cpp
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\scoped_ptr.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\scoped_ptr.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+param.cpp(201): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(343): note: see declaration of 'strncpy'
+  path.cpp
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+  tagger.cpp
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\common.h(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\scoped_ptr.h(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\scoped_ptr.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+c:\users\wannaphong\documents\crf\crf_learn\crf_learn\tagger.h(158): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+tagger.cpp(37): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(343): note: see declaration of 'strncpy'
+tagger.cpp(336): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+tagger.cpp(731): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(343): note: see declaration of 'strncpy'
+tagger.cpp(773): warning C4273: 'CRFPP::createTagger': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(347): note: see previous definition of 'createTagger'
+tagger.cpp(783): warning C4273: 'CRFPP::createTagger': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(351): note: see previous definition of 'createTagger'
+tagger.cpp(793): warning C4273: 'CRFPP::createModel': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(355): note: see previous definition of 'createModel'
+tagger.cpp(804): warning C4273: 'CRFPP::createModelFromArray': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(358): note: see previous definition of 'createModelFromArray'
+tagger.cpp(814): warning C4273: 'CRFPP::createModel': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(364): note: see previous definition of 'createModel'
+tagger.cpp(825): warning C4273: 'CRFPP::createModelFromArray': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(367): note: see previous definition of 'createModelFromArray'
+tagger.cpp(835): warning C4273: 'CRFPP::getTaggerError': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(372): note: see previous definition of 'getTaggerError'
+tagger.cpp(839): warning C4273: 'CRFPP::getLastError': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(375): note: see previous definition of 'getLastError'
+tagger.cpp(894): warning C4273: 'crfpp_test': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(91): note: see previous definition of 'crfpp_test'
+tagger.cpp(900): warning C4273: 'crfpp_test2': inconsistent dll linkage
+  c:\users\wannaphong\documents\crf\crf_learn\crf_learn\crfpp.h(92): note: see previous definition of 'crfpp_test2'
+     Creating library C:\Users\wannaphong\Documents\CRF\crf_learn\Release\crf_learn.lib and object C:\Users\wannaphong\Documents\CRF\crf_learn\Release\crf_learn.exp
+  Generating code
+  All 2455 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  crf_learn.vcxproj -> C:\Users\wannaphong\Documents\CRF\crf_learn\Release\crf_learn.exe
+  crf_learn.vcxproj -> C:\Users\wannaphong\Documents\CRF\crf_learn\Release\crf_learn.pdb (Full PDB)
