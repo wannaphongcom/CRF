@@ -1,0 +1,32 @@
+{
+    "entity_examples": [
+      {
+        "text": "สวัสดี",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "ไง",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "หวัดดี",
+        "intent": "greet",
+        "entities": []
+      },
+     
+      {
+        "text": "กูเกิลเปิดตัวบริการใหม่",
+        "intent": "Initiate_payment_preformat",
+        "entities": [
+          {
+            "start": 1,
+            "end": 6,
+            "value": "กูเกิล",
+            "entity": "บริษัท"
+          }
+        ]
+      }
+	  ]
+}
